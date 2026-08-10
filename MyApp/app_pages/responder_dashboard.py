@@ -15,7 +15,7 @@ import logging
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
-from src.core.database import AuraFitDatabase
+from src.core.database import MyDatabase
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -82,7 +82,7 @@ st.markdown("""
 
 @st.cache_resource
 def init_database():
-    return AuraFitDatabase("data/aurafit.db")
+    return MyDatabase("data/aurafit.db")
 
 db = init_database()
 
