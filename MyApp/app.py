@@ -83,7 +83,7 @@ def show_home():
 
         <div class="home-title">
             <h1 class="home-heading">🚨S.A.F.E. Platform</h1>
-            <p class="home-subheading">Crisis AI Response System</p>
+            <p class="home-subheading">Smart AI Framework for Emergencies</p>
         </div>
     """, unsafe_allow_html=True)
 
