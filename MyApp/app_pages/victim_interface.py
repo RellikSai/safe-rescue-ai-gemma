@@ -15,7 +15,7 @@ import tempfile
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
 from src.core.llm_provider import get_llm_provider
-from src.core.database import AuraFitDatabase
+from src.core.database import MyDatabase
 from src.core.function_executor import parse_function_call
 from src.utils.image_processor import process_uploaded_image, validate_image
 from src.utils.audio_processor import transcribe_audio, text_to_speech, get_safe_actions
@@ -119,7 +119,7 @@ def init_llm_provider():
 
 @st.cache_resource
 def init_database():
-    return AuraFitDatabase("data/aurafit.db")
+    return MyDatabase("data/aurafit.db")
 
 try:
     llm_provider = init_llm_provider()
