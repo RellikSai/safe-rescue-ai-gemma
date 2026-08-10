@@ -68,8 +68,8 @@ The SQLite database is generated dynamically during runtime and is intentionally
 ### 1. Clone the repository
 
 ```bash id="1k0s8m"
-git clone https://github.com/YourUsername/SAFE-Deploy.git
-cd SAFE-Deploy
+git clone https://github.com/RellikSai/safe-rescue-ai-gemma.git
+cd safe-rescue-ai-gemma/MyApp
 ```
 
 ### 2. Create a virtual environment
