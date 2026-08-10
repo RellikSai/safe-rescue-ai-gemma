@@ -13,7 +13,7 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 
-class AuraFitDatabase:
+class MyDatabase:
     """SQLite database handler for disaster incidents"""
 
     def __init__(self, db_path: str = "data/aurafit.db"):
