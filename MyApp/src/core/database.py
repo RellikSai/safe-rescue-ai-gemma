@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 class MyDatabase:
     """SQLite database handler for disaster incidents"""
 
-    def __init__(self, db_path: str = "data/aurafit.db"):
+    def __init__(self, db_path: str = "data/safe.db"):
         """
         Initialize database connection
         
