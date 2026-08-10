@@ -47,7 +47,7 @@ class GemmaAPIProvider:
         Generates calm, reassuring victim guidance in the preferred response language.
         """
         try:
-            system_prompt = f"""You are AuraFit, an AI emergency response copilot for disaster triage and victim survival guidance.
+            system_prompt = f"""You are an AI emergency response copilot for disaster triage and victim survival guidance.
 
 CRITICAL INSTRUCTIONS:
 1. Input Handling: The victim is communicating using {communication_language}. Accept and interpret all text, photo/image analysis, and audio transcriptions regardless of slang, pidgin, or local dialect.
